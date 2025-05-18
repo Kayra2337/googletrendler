@@ -18,12 +18,12 @@ for i in range(0,len(haberler),3):
     with col1:
         st.image(haberler[i][3])
         st.write(haberler[i][1])
-        st.link_button("habelere git", haberler[i][2])
+        st.link_button("haberlere git", haberler[i][2])
     with col2:
         st.image(haberler[i+1][3])
         st.write(haberler[i+1][1])
-        st.link_button("habelere git", haberler[i+1][2])
+        st.link_button("haberlere git", haberler[i+1][2])
     with col3:
         st.image(haberler[i+2][3])
         st.write(haberler[i+2][1])
-        st.link_button("habelere git", haberler[i+2][2])
+        st.link_button("haberlere git", haberler[i+2][2])

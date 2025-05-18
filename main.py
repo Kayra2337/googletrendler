@@ -7,7 +7,7 @@ from datetime import date
 from google import genai
 from pydantic import BaseModel
 
-ara = st.text_input("Haberler için arama yap"
+ara = st.text_input("Haberler için arama yap")
 
 conn = sqlitecloud.connect('sqlitecloud://cwyir6txnk.g4.sqlite.cloud:8860/chinook.sqlite?apikey=AmFPZIWsoYnglTnSVZ3taxbHswEiWP44FRygTmD1hNg')
 c = conn.cursor()

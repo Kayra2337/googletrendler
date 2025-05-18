@@ -6,7 +6,6 @@ import requests
 from datetime import date
 from google import genai
 from pydantic import BaseModel
-import fonksiyonlar
 
 conn = sqlitecloud.connect('sqlitecloud://cwyir6txnk.g4.sqlite.cloud:8860/chinook.sqlite?apikey=AmFPZIWsoYnglTnSVZ3taxbHswEiWP44FRygTmD1hNg')
 c = conn.cursor()
